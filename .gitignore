@@ -1,0 +1,22 @@
+# Outputs, caches, and local artefacts
+outputs/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Raw expression/clinical data (large; not shipped with this repository)
+# see README "Data" for how to obtain it.
+data/expression/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
