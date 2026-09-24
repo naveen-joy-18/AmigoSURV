@@ -158,6 +158,6 @@ All models: AdamW, batch 32, max 200 epochs, cosine / one-cycle schedules, gradi
 - See `docs/pseudocode.md` for the exact equations implemented and `docs/pseudocode_changes.md` for the reconciliation of the manuscript pseudo-code with this implementation (esp. the sparse gate activation and the TransSurv depth).
 
 
-## 10. License
+## 9. License
 
 MIT — see [LICENSE](LICENSE).
