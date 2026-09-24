@@ -157,19 +157,6 @@ All models: AdamW, batch 32, max 200 epochs, cosine / one-cycle schedules, gradi
 - CV is **5-fold stratified on the event indicator**; scaler/PCA are fitted **per training fold** only to prevent leakage.
 - See `docs/pseudocode.md` for the exact equations implemented and `docs/pseudocode_changes.md` for the reconciliation of the manuscript pseudo-code with this implementation (esp. the sparse gate activation and the TransSurv depth).
 
-## 9. Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{amigo-surv,
-  title  = {AmiGO-Surv: An Attention-Based miRNA-Gene Axis Oncology Survival Framework},
-  author = {Deepak and colleagues},
-  journal= {Nature Machine Intelligence},
-  year   = {2026},
-  note   = {Manuscript under review — code available at https://github.com/<your-account>/AmiGO-Surv}
-}
-```
 
 ## 10. License
 
